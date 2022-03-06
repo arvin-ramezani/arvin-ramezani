@@ -1,6 +1,6 @@
 ### Hi there 👋, my name is Arvin
 #### I am Javascript Full Stack Developer
-![I am Javascript Full Stack Developer](https://www.linkedin.com/in/arvin-ramezani/overlay/background-image/)
+![I am Javascript Full Stack Developer](https://media-exp1.licdn.com/dms/image/C4D16AQHHLgcpuGOtTQ/profile-displaybackgroundimage-shrink_350_1400/0/1639220606856?e=1652313600&v=beta&t=1lZeGGCqCvZX73iT_MhSTdA9DxKJOFFImx0rD5bhHdQ)
 
 I am Arvin Ramezani from Babolsar / Mazandaran Province / Iran Country.
 I enjoy learning Web Development: Javascript & Typescript
@@ -19,7 +19,4 @@ Skills: NODEJS / JAVASCRIPT / TYPESCRIPT
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=https://github.com/)](https://github.com/anuraghazra/github-readme-stats)
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=https://github.com/&show_icons=true)  
-
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=https://github.com/)  
-
 
