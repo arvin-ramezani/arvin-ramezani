@@ -9,7 +9,7 @@ I'm interested in database design and microservices Architecture.
 Skills: NODEJS / JAVASCRIPT / TYPESCRIPT
 
 - 🔭 I’m currently working on Javascript / Typescript 
-- 🌱 I’m currently learning Data Base Design  
+- 🌱 I’m currently learning Nest.js and React.js Testing  
 - 💬 Ask me about web develpment 
 - 📫 How to reach me: rvin.ramezani@gmail.com 
 
