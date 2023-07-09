@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Arvin</h1>
-<h3 align="center">Aspiring in JavaScript Full Stack Developer</h3>
+<h3 align="center">Aspiring in JavaScript / TypeScript Full Stack Developer with ReactJS & NodeJS</h3>
 
 
 <h3 align="left">Connect with me:</h3>
