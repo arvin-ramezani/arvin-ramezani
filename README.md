@@ -18,15 +18,15 @@
 <img align="center" src="./images/titles/about.png" width="100%" alt="About Me Section Title" />
 <img align="right" src="./images/about-me.jpg" border="2" width="380px" height="294px" alt="Skills" />
 <ul>
-  <li>
-    💻 Hey there, I'm Arvin Ramezani, a self-taught ReactJS and NodeJS Web Developer. Over the past three years, I started learning the ins and outs of web development through Persian online courses, and then continued my education on Udemy with a focus on courses offered by <a href="https://pro.academind.com" target="_blank">Academind</a> Company.</li>
+ <li>
+    💻 Hey there, I'm <b>Arvin Ramezani</b>, a <b>self-taught ReactJS and NodeJS Web Developer</b>. Over the past three years, I started learning the ins and outs of web development through <b>Persian online courses</b>, and then continued my education on <b>Udemy</b> with a focus on courses offered by <b><a href="https://pro.academind.com" target="_blank">Academind</a></b> Company.</li>
   <li>
     <img width="22px" src="./images/icons/continuous-learning.svg" alt="Continuous Learning">
-    I believe in continuous learning and staying up-to-date with the latest skills and tech tools, and my current areas of focus is automated testing with Jest / Vitest and Cypress.
+    I believe in <b>continuous learning</b> and <b>staying up-to-date</b> with the latest skills and tech tools, and my current areas of focus is <b>Automated Testing with Jest / Vitest and Cypress</b>.
   </li>
   <li>
   <img width="18px" src="./images/icons/resume.svg" alt="Get In Touch">
-   If you're interested in working with me, feel free to download my resume and get in touch. I'm always happy to chat about potential collaborations and new opportunities.
+   If you're interested in working with me, feel free to <b>download my resume</b> and get in touch. I'm always happy to chat about potential collaborations and new opportunities.
   </li>
   <br/>
   <a href="https://imarvin.ir/#about" target="_blank">Get In Touch &<b> Download Resume</b>
