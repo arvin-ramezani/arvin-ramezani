@@ -320,7 +320,7 @@
 <hr/>
 
 <img align="center" src="./images/titles/projects.png" width="100%" alt="Projects Section Title" />
-<img align="left" src="./images/projects/wallpaper.svg" width="40%" alt="Porjects Section Wallpaper" />
+<img align="left" src="./images/projects/wallpaper.jpg" width="40%" alt="Porjects Section Wallpaper" />
 <table height="500px" align="right">
   <tr>
    <td>
