@@ -6,7 +6,7 @@ Full-stack developer building web products and developer tools with TypeScript, 
 
 Interested in software architecture, product design, and AI agents.
 
-## ![](./images/icons/profile/briefcase.svg) Selected work
+## <picture><source media="(prefers-color-scheme: dark)" srcset="./images/icons/profile/briefcase-dark.svg"><img src="./images/icons/profile/briefcase.svg" width="18" height="18" alt=""></picture> Selected work
 
 ### [imarvin](https://github.com/arvin-ramezani/imarvin) — In development
 A personal app for presenting work as evidence-led stories.
@@ -17,11 +17,11 @@ A local-first GitHub Actions runner with developer-controlled commit and push ga
 ### [ai-skills](https://github.com/arvin-ramezani/ai-skills)
 Reusable AI-agent skills for architecture, documentation, product design, React, and testing.
 
-## ![](./images/icons/profile/git-branch.svg) How I work
+## <picture><source media="(prefers-color-scheme: dark)" srcset="./images/icons/profile/git-branch-dark.svg"><img src="./images/icons/profile/git-branch.svg" width="18" height="18" alt=""></picture> How I work
 
 I turn requirements into architecture decisions and tested implementation.
 
-## ![](./images/icons/profile/code.svg) Technical focus
+## <picture><source media="(prefers-color-scheme: dark)" srcset="./images/icons/profile/code-dark.svg"><img src="./images/icons/profile/code.svg" width="18" height="18" alt=""></picture> Technical focus
 
 - **Frontend:** TypeScript, React, Next.js, Tailwind CSS
 - **Backend:** Node.js, NestJS
@@ -29,6 +29,6 @@ I turn requirements into architecture decisions and tested implementation.
 - **Delivery:** Docker, CI, automated testing
 - **Currently exploring:** Go
 
-## ![](./images/icons/profile/mail.svg) Get in touch
+## <picture><source media="(prefers-color-scheme: dark)" srcset="./images/icons/profile/mail-dark.svg"><img src="./images/icons/profile/mail.svg" width="18" height="18" alt=""></picture> Get in touch
 
 [LinkedIn](https://www.linkedin.com/in/arvin-ramezani/) · [Email](mailto:arvin.ramezani6@gmail.com)
