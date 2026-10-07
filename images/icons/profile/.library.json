@@ -1,0 +1,12 @@
+{
+  "library": "feather",
+  "prefix": "feather",
+  "source": "iconify",
+  "installedAt": "2026-10-07T22:49:55.516Z",
+  "icons": [
+    "briefcase",
+    "code",
+    "git-branch",
+    "mail"
+  ]
+}

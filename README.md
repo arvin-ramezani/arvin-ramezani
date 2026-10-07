@@ -1,37 +1,34 @@
-![Quote banner featuring a reflection on persistence and understanding systems](./images/header/problem-solving-profile.jpg)
+![Arvin Ramezani portrait beside a Ryan Dahl quote about understanding systems](./images/header/problem-solving-profile.jpg)
 
 # Arvin Ramezani
 
 Full-stack developer building web products and developer tools with TypeScript, React, Next.js, Node.js, and PostgreSQL.
 
-I care about clear product decisions, practical architecture, and dependable implementation.
+Interested in software architecture, product design, and AI agents.
 
-[Selected work](#selected-work) · [LinkedIn](https://www.linkedin.com/in/arvin-ramezani/) · [Email](mailto:arvin.ramezani6@gmail.com)
-
-## Selected work
+## ![](./images/icons/profile/briefcase.svg) Selected work
 
 ### [imarvin](https://github.com/arvin-ramezani/imarvin) — In development
-A creative web app for presenting work as structured, evidence-led stories.
-
-**Focus:** Next.js · React · PostgreSQL · Prisma
+A personal app for presenting work as evidence-led stories.
 
 ### [ci-see](https://github.com/arvin-ramezani/ci-see) — In development
 A local-first GitHub Actions runner with developer-controlled commit and push gating.
 
 ### [ai-skills](https://github.com/arvin-ramezani/ai-skills)
-Reusable AI-agent skills and decision frameworks for architecture, documentation, UX, React, and testing.
+Reusable AI-agent skills for architecture, documentation, product design, React, and testing.
 
-## How I work
+## ![](./images/icons/profile/git-branch.svg) How I work
 
-I break work into scoped requirements, record key architecture decisions, and verify implementations with automated tests, reviews, and runtime checks.
+I turn requirements into architecture decisions and tested implementation.
 
-## Technical focus
+## ![](./images/icons/profile/code.svg) Technical focus
 
 - **Frontend:** TypeScript, React, Next.js, Tailwind CSS
-- **Backend and data:** Node.js, NestJS, PostgreSQL, Prisma
+- **Backend:** Node.js, NestJS
+- **Data:** PostgreSQL, Prisma
 - **Delivery:** Docker, CI, automated testing
 - **Currently exploring:** Go
 
-## Get in touch
+## ![](./images/icons/profile/mail.svg) Get in touch
 
 [LinkedIn](https://www.linkedin.com/in/arvin-ramezani/) · [Email](mailto:arvin.ramezani6@gmail.com)
