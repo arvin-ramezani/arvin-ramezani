@@ -1,0 +1,800 @@
+{
+  "format_version": 1,
+  "owner": "arvin-ramezani",
+  "profile_url": "https://github.com/arvin-ramezani",
+  "reviewed_on": "2026-10-08",
+  "scope": "Public repositories only. Descriptions identify visible repository contents, not deployment status or test results.",
+  "repositories": [
+    {
+      "name": "imarvin",
+      "url": "https://github.com/arvin-ramezani/imarvin",
+      "category": "Current public work",
+      "kind": "implementation",
+      "description": "Personal web app with project stories, private editing, and publishing; in development.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Product brief",
+          "path": "PRD.md",
+          "url": "https://github.com/arvin-ramezani/imarvin/blob/main/PRD.md"
+        },
+        {
+          "label": "Architecture",
+          "path": "docs/architecture/architecture.md",
+          "url": "https://github.com/arvin-ramezani/imarvin/blob/main/docs/architecture/architecture.md"
+        },
+        {
+          "label": "Work implementation",
+          "path": "features/work/",
+          "url": "https://github.com/arvin-ramezani/imarvin/tree/main/features/work"
+        },
+        {
+          "label": "Tests",
+          "path": "tests/",
+          "url": "https://github.com/arvin-ramezani/imarvin/tree/main/tests"
+        }
+      ]
+    },
+    {
+      "name": "unixsee-monorepo",
+      "url": "https://github.com/arvin-ramezani/unixsee-monorepo",
+      "category": "Current public work",
+      "kind": "implementation",
+      "description": "Managed WordPress and WooCommerce infrastructure: NestJS control plane, monitoring agent, and Next.js surfaces. Frontend integration is bounded by the UI-only phase ADR.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "System overview",
+          "path": "docs/architecture/overview.md",
+          "url": "https://github.com/arvin-ramezani/unixsee-monorepo/blob/main/docs/architecture/overview.md"
+        },
+        {
+          "label": "UI phase boundaries",
+          "path": "docs/architecture/decisions/0003-ui-only-phase-boundaries.md",
+          "url": "https://github.com/arvin-ramezani/unixsee-monorepo/blob/main/docs/architecture/decisions/0003-ui-only-phase-boundaries.md"
+        },
+        {
+          "label": "Backend",
+          "path": "backend/src/",
+          "url": "https://github.com/arvin-ramezani/unixsee-monorepo/tree/main/backend/src"
+        },
+        {
+          "label": "Agent",
+          "path": "agent/README.md",
+          "url": "https://github.com/arvin-ramezani/unixsee-monorepo/blob/main/agent/README.md"
+        }
+      ]
+    },
+    {
+      "name": "ai-skills",
+      "url": "https://github.com/arvin-ramezani/ai-skills",
+      "category": "Current public work",
+      "kind": "skill-library",
+      "description": "Portable AI-agent skills for architecture, documentation, product design, React, and testing.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Skill catalog",
+          "path": "README.md",
+          "url": "https://github.com/arvin-ramezani/ai-skills/blob/main/README.md"
+        },
+        {
+          "label": "Architecture advisor",
+          "path": "skills/software-architecture-advisor/SKILL.md",
+          "url": "https://github.com/arvin-ramezani/ai-skills/blob/main/skills/software-architecture-advisor/SKILL.md"
+        },
+        {
+          "label": "Installation",
+          "path": "scripts/install_skill.py",
+          "url": "https://github.com/arvin-ramezani/ai-skills/blob/main/scripts/install_skill.py"
+        },
+        {
+          "label": "Packaging",
+          "path": "scripts/package_skill.py",
+          "url": "https://github.com/arvin-ramezani/ai-skills/blob/main/scripts/package_skill.py"
+        }
+      ]
+    },
+    {
+      "name": "ci-see",
+      "url": "https://github.com/arvin-ramezani/ci-see",
+      "category": "Current public work",
+      "kind": "specification",
+      "description": "Planning and specifications for local GitHub Actions execution through act and developer-controlled Git gating; no CLI implementation in the reviewed default branch.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Requirements",
+          "path": "docs/prd.md",
+          "url": "https://github.com/arvin-ramezani/ci-see/blob/main/docs/prd.md"
+        },
+        {
+          "label": "Architecture",
+          "path": "docs/architecture.md",
+          "url": "https://github.com/arvin-ramezani/ci-see/blob/main/docs/architecture.md"
+        },
+        {
+          "label": "Git gating",
+          "path": "docs/specs/git-gating.md",
+          "url": "https://github.com/arvin-ramezani/ci-see/blob/main/docs/specs/git-gating.md"
+        }
+      ]
+    },
+    {
+      "name": "react-task-list",
+      "url": "https://github.com/arvin-ramezani/react-task-list",
+      "category": "Application studies",
+      "kind": "study",
+      "description": "Drag-and-drop task board; README explains handling delayed state changes during dragging. Includes unit and Cypress test sources.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Problem and solution",
+          "path": "README.md",
+          "url": "https://github.com/arvin-ramezani/react-task-list/blob/main/README.md"
+        },
+        {
+          "label": "State reducer",
+          "path": "src/context/tasksReducer.tsx",
+          "url": "https://github.com/arvin-ramezani/react-task-list/blob/main/src/context/tasksReducer.tsx"
+        },
+        {
+          "label": "Unit tests",
+          "path": "tests/",
+          "url": "https://github.com/arvin-ramezani/react-task-list/tree/main/tests"
+        },
+        {
+          "label": "Cypress",
+          "path": "cypress/",
+          "url": "https://github.com/arvin-ramezani/react-task-list/tree/main/cypress"
+        }
+      ]
+    },
+    {
+      "name": "simple-nodejs-crud-api",
+      "url": "https://github.com/arvin-ramezani/simple-nodejs-crud-api",
+      "category": "Backend studies",
+      "kind": "study",
+      "description": "Express and TypeScript student CRUD API with MongoDB, validation, Swagger, and Vitest and Supertest test sources.",
+      "default_branch": "master",
+      "entry_points": [
+        {
+          "label": "API guide",
+          "path": "README.md",
+          "url": "https://github.com/arvin-ramezani/simple-nodejs-crud-api/blob/master/README.md"
+        },
+        {
+          "label": "Validation",
+          "path": "src/middlewares/",
+          "url": "https://github.com/arvin-ramezani/simple-nodejs-crud-api/tree/master/src/middlewares"
+        },
+        {
+          "label": "Route tests",
+          "path": "src/routes/__test__/",
+          "url": "https://github.com/arvin-ramezani/simple-nodejs-crud-api/tree/master/src/routes/__test__"
+        }
+      ]
+    },
+    {
+      "name": "react-weather-app",
+      "url": "https://github.com/arvin-ramezani/react-weather-app",
+      "category": "Application studies",
+      "kind": "study",
+      "description": "React, Vite, and TypeScript weather app with API-driven city search and Vitest component-test sources.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Overview",
+          "path": "README.md",
+          "url": "https://github.com/arvin-ramezani/react-weather-app/blob/main/README.md"
+        },
+        {
+          "label": "Weather UI",
+          "path": "src/components/Weather/",
+          "url": "https://github.com/arvin-ramezani/react-weather-app/tree/main/src/components/Weather"
+        },
+        {
+          "label": "Response tests",
+          "path": "src/utils/helpers/transformResponse.test.ts",
+          "url": "https://github.com/arvin-ramezani/react-weather-app/blob/main/src/utils/helpers/transformResponse.test.ts"
+        }
+      ]
+    },
+    {
+      "name": "pizza-shop",
+      "url": "https://github.com/arvin-ramezani/pizza-shop",
+      "category": "Application studies",
+      "kind": "study",
+      "description": "Next.js and TypeScript food-ordering study with authentication, cart, orders, animation, and component-test sources.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Pages and API",
+          "path": "pages/",
+          "url": "https://github.com/arvin-ramezani/pizza-shop/tree/main/pages"
+        },
+        {
+          "label": "Components",
+          "path": "components/",
+          "url": "https://github.com/arvin-ramezani/pizza-shop/tree/main/components"
+        },
+        {
+          "label": "Tests",
+          "path": "__tests__/",
+          "url": "https://github.com/arvin-ramezani/pizza-shop/tree/main/__tests__"
+        }
+      ]
+    },
+    {
+      "name": "MERN-simple-watch-shop",
+      "url": "https://github.com/arvin-ramezani/MERN-simple-watch-shop",
+      "category": "Application studies",
+      "kind": "study",
+      "description": "Watch-shop study using React, TypeScript, Redux Toolkit, MUI, forms, and an Express backend with MongoDB.",
+      "default_branch": "master",
+      "entry_points": [
+        {
+          "label": "Client",
+          "path": "client/src/",
+          "url": "https://github.com/arvin-ramezani/MERN-simple-watch-shop/tree/master/client/src"
+        },
+        {
+          "label": "Server",
+          "path": "server/src/",
+          "url": "https://github.com/arvin-ramezani/MERN-simple-watch-shop/tree/master/server/src"
+        }
+      ]
+    },
+    {
+      "name": "MERN-animals-house",
+      "url": "https://github.com/arvin-ramezani/MERN-animals-house",
+      "category": "Application studies",
+      "kind": "study",
+      "description": "Animal-listing app study with React, Redux Toolkit, animation, and access/refresh-token authentication.",
+      "default_branch": "master",
+      "entry_points": [
+        {
+          "label": "Client",
+          "path": "client/src/",
+          "url": "https://github.com/arvin-ramezani/MERN-animals-house/tree/master/client/src"
+        },
+        {
+          "label": "Server",
+          "path": "server/src/",
+          "url": "https://github.com/arvin-ramezani/MERN-animals-house/tree/master/server/src"
+        }
+      ]
+    },
+    {
+      "name": "MERN-stack-blog",
+      "url": "https://github.com/arvin-ramezani/MERN-stack-blog",
+      "category": "Application studies",
+      "kind": "study",
+      "description": "React/Redux Toolkit blog study with an Express and MongoDB backend.",
+      "default_branch": "master",
+      "entry_points": [
+        {
+          "label": "Client",
+          "path": "client/src/",
+          "url": "https://github.com/arvin-ramezani/MERN-stack-blog/tree/master/client/src"
+        },
+        {
+          "label": "Server",
+          "path": "server/",
+          "url": "https://github.com/arvin-ramezani/MERN-stack-blog/tree/master/server"
+        }
+      ]
+    },
+    {
+      "name": "shopping-cart",
+      "url": "https://github.com/arvin-ramezani/shopping-cart",
+      "category": "Application studies",
+      "kind": "study",
+      "description": "Earlier React/Redux shopping-cart and book-list UI study; README is framework boilerplate.",
+      "default_branch": "master",
+      "entry_points": [
+        {
+          "label": "Cart UI",
+          "path": "src/components/ShoppingCart/",
+          "url": "https://github.com/arvin-ramezani/shopping-cart/tree/master/src/components/ShoppingCart"
+        },
+        {
+          "label": "Redux state",
+          "path": "src/redux/shopping/",
+          "url": "https://github.com/arvin-ramezani/shopping-cart/tree/master/src/redux/shopping"
+        }
+      ]
+    },
+    {
+      "name": "next-14-next-auth",
+      "url": "https://github.com/arvin-ramezani/next-14-next-auth",
+      "category": "Application studies",
+      "kind": "study",
+      "description": "Next.js authentication-provider practice with credentials, GitHub, Google, and email. Reviewed default branch is feat/email-only.",
+      "default_branch": "feat/email-only",
+      "entry_points": [
+        {
+          "label": "Auth options",
+          "path": "app/api/auth/[...nextauth]/options.ts",
+          "url": "https://github.com/arvin-ramezani/next-14-next-auth/blob/feat/email-only/app/api/auth/[...nextauth]/options.ts"
+        },
+        {
+          "label": "Auth pages",
+          "path": "app/(auth)/",
+          "url": "https://github.com/arvin-ramezani/next-14-next-auth/tree/feat/email-only/app/(auth)"
+        },
+        {
+          "label": "Middleware",
+          "path": "middleware.ts",
+          "url": "https://github.com/arvin-ramezani/next-14-next-auth/blob/feat/email-only/middleware.ts"
+        }
+      ]
+    },
+    {
+      "name": "portfolio",
+      "url": "https://github.com/arvin-ramezani/portfolio",
+      "category": "Interface explorations",
+      "kind": "interface-experiment",
+      "description": "Earlier personal-site implementation using Next.js, TypeScript, Framer Motion, styled-components, and Three.js.",
+      "default_branch": "master",
+      "entry_points": [
+        {
+          "label": "Homepage",
+          "path": "pages/index.tsx",
+          "url": "https://github.com/arvin-ramezani/portfolio/blob/master/pages/index.tsx"
+        },
+        {
+          "label": "Components",
+          "path": "components/",
+          "url": "https://github.com/arvin-ramezani/portfolio/tree/master/components"
+        }
+      ]
+    },
+    {
+      "name": "web-studio",
+      "url": "https://github.com/arvin-ramezani/web-studio",
+      "category": "Interface explorations",
+      "kind": "interface-experiment",
+      "description": "Studio-site experiment in a pnpm workspace; related to the velorian and replit explorations.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Studio source",
+          "path": "artifacts/studio-site/src/",
+          "url": "https://github.com/arvin-ramezani/web-studio/tree/main/artifacts/studio-site/src"
+        },
+        {
+          "label": "Workspace notes",
+          "path": "replit.md",
+          "url": "https://github.com/arvin-ramezani/web-studio/blob/main/replit.md"
+        }
+      ]
+    },
+    {
+      "name": "velorian",
+      "url": "https://github.com/arvin-ramezani/velorian",
+      "category": "Interface explorations",
+      "kind": "interface-experiment",
+      "description": "Next.js studio-site exploration with English/Persian messages and themed components; related to web-studio and replit.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Localized pages",
+          "path": "src/app/",
+          "url": "https://github.com/arvin-ramezani/velorian/tree/main/src/app"
+        },
+        {
+          "label": "Components",
+          "path": "src/components/",
+          "url": "https://github.com/arvin-ramezani/velorian/tree/main/src/components"
+        },
+        {
+          "label": "Messages",
+          "path": "messages/",
+          "url": "https://github.com/arvin-ramezani/velorian/tree/main/messages"
+        }
+      ]
+    },
+    {
+      "name": "replit",
+      "url": "https://github.com/arvin-ramezani/replit",
+      "category": "Interface explorations",
+      "kind": "interface-experiment",
+      "description": "Workspace experiment with studio-site and Express API source; related to web-studio and velorian.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Studio source",
+          "path": "artifacts/studio-site/src/",
+          "url": "https://github.com/arvin-ramezani/replit/tree/main/artifacts/studio-site/src"
+        },
+        {
+          "label": "API source",
+          "path": "artifacts/api-server/src/",
+          "url": "https://github.com/arvin-ramezani/replit/tree/main/artifacts/api-server/src"
+        },
+        {
+          "label": "Workspace notes",
+          "path": "replit.md",
+          "url": "https://github.com/arvin-ramezani/replit/blob/main/replit.md"
+        }
+      ]
+    },
+    {
+      "name": "Next.js",
+      "url": "https://github.com/arvin-ramezani/Next.js",
+      "category": "Interface explorations",
+      "kind": "study",
+      "description": "Earlier interface study using Next.js, TypeScript, and Framer Motion; README is framework boilerplate.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Page",
+          "path": "pages/index.tsx",
+          "url": "https://github.com/arvin-ramezani/Next.js/blob/main/pages/index.tsx"
+        },
+        {
+          "label": "Components",
+          "path": "components/",
+          "url": "https://github.com/arvin-ramezani/Next.js/tree/main/components"
+        }
+      ]
+    },
+    {
+      "name": "jobinja-jobs",
+      "url": "https://github.com/arvin-ramezani/jobinja-jobs",
+      "category": "Interface explorations",
+      "kind": "study",
+      "description": "Persian RTL job-search interface exercise using HTML, CSS, and JavaScript; no README.",
+      "default_branch": "master",
+      "entry_points": [
+        {
+          "label": "Page",
+          "path": "index.html",
+          "url": "https://github.com/arvin-ramezani/jobinja-jobs/blob/master/index.html"
+        },
+        {
+          "label": "Styles",
+          "path": "styles/",
+          "url": "https://github.com/arvin-ramezani/jobinja-jobs/tree/master/styles"
+        },
+        {
+          "label": "JavaScript",
+          "path": "js/",
+          "url": "https://github.com/arvin-ramezani/jobinja-jobs/tree/master/js"
+        }
+      ]
+    },
+    {
+      "name": "NestJs-Postgresql-Task_Manager-API",
+      "url": "https://github.com/arvin-ramezani/NestJs-Postgresql-Task_Manager-API",
+      "category": "Backend studies",
+      "kind": "study",
+      "description": "NestJS task API study using PostgreSQL and TypeORM; README is framework boilerplate.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Task module",
+          "path": "src/task/",
+          "url": "https://github.com/arvin-ramezani/NestJs-Postgresql-Task_Manager-API/tree/main/src/task"
+        },
+        {
+          "label": "Manifest",
+          "path": "package.json",
+          "url": "https://github.com/arvin-ramezani/NestJs-Postgresql-Task_Manager-API/blob/main/package.json"
+        }
+      ]
+    },
+    {
+      "name": "NestJs-TypeOrm-graphql",
+      "url": "https://github.com/arvin-ramezani/NestJs-TypeOrm-graphql",
+      "category": "Backend studies",
+      "kind": "study",
+      "description": "NestJS, GraphQL, and TypeORM study with employee and project modules; README is framework boilerplate.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Employee module",
+          "path": "src/employee/",
+          "url": "https://github.com/arvin-ramezani/NestJs-TypeOrm-graphql/tree/main/src/employee"
+        },
+        {
+          "label": "Project module",
+          "path": "src/project/",
+          "url": "https://github.com/arvin-ramezani/NestJs-TypeOrm-graphql/tree/main/src/project"
+        }
+      ]
+    },
+    {
+      "name": "nestjs-graphql",
+      "url": "https://github.com/arvin-ramezani/nestjs-graphql",
+      "category": "Backend studies",
+      "kind": "study",
+      "description": "NestJS GraphQL and TypeORM study with pet and owner resolvers; README is framework boilerplate.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Pet module",
+          "path": "src/pets/",
+          "url": "https://github.com/arvin-ramezani/nestjs-graphql/tree/main/src/pets"
+        },
+        {
+          "label": "Owner module",
+          "path": "src/owners/",
+          "url": "https://github.com/arvin-ramezani/nestjs-graphql/tree/main/src/owners"
+        }
+      ]
+    },
+    {
+      "name": "nestjs-authentication",
+      "url": "https://github.com/arvin-ramezani/nestjs-authentication",
+      "category": "Backend studies",
+      "kind": "study",
+      "description": "NestJS access/refresh-token authentication study with Prisma; README is framework boilerplate.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Auth source",
+          "path": "src/auth/",
+          "url": "https://github.com/arvin-ramezani/nestjs-authentication/tree/main/src/auth"
+        },
+        {
+          "label": "Prisma",
+          "path": "prisma/",
+          "url": "https://github.com/arvin-ramezani/nestjs-authentication/tree/main/prisma"
+        }
+      ]
+    },
+    {
+      "name": "nestjs-rabbitmq",
+      "url": "https://github.com/arvin-ramezani/nestjs-rabbitmq",
+      "category": "Backend studies",
+      "kind": "study",
+      "description": "NestJS multi-app RabbitMQ, MongoDB, and Docker study with auth, billing, and orders surfaces; README is framework boilerplate.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Applications",
+          "path": "apps/",
+          "url": "https://github.com/arvin-ramezani/nestjs-rabbitmq/tree/main/apps"
+        },
+        {
+          "label": "Shared libraries",
+          "path": "libs/",
+          "url": "https://github.com/arvin-ramezani/nestjs-rabbitmq/tree/main/libs"
+        },
+        {
+          "label": "Compose",
+          "path": "docker-compose.yaml",
+          "url": "https://github.com/arvin-ramezani/nestjs-rabbitmq/blob/main/docker-compose.yaml"
+        }
+      ]
+    },
+    {
+      "name": "nest.js-realtor-app",
+      "url": "https://github.com/arvin-ramezani/nest.js-realtor-app",
+      "category": "Backend studies",
+      "kind": "study",
+      "description": "NestJS real-estate API study with Prisma and PostgreSQL, Swagger, and unit-test sources; README is framework boilerplate.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Home module and tests",
+          "path": "src/home/",
+          "url": "https://github.com/arvin-ramezani/nest.js-realtor-app/tree/main/src/home"
+        },
+        {
+          "label": "Auth source and tests",
+          "path": "src/user/auth/",
+          "url": "https://github.com/arvin-ramezani/nest.js-realtor-app/tree/main/src/user/auth"
+        },
+        {
+          "label": "Prisma",
+          "path": "prisma/",
+          "url": "https://github.com/arvin-ramezani/nest.js-realtor-app/tree/main/prisma"
+        }
+      ]
+    },
+    {
+      "name": "nestjs-mongodb-repository",
+      "url": "https://github.com/arvin-ramezani/nestjs-mongodb-repository",
+      "category": "Backend studies",
+      "kind": "study",
+      "description": "NestJS and MongoDB repository-pattern study with employee and vehicle repositories; README is framework boilerplate.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Repositories",
+          "path": "src/employees/repositories/",
+          "url": "https://github.com/arvin-ramezani/nestjs-mongodb-repository/tree/main/src/employees/repositories"
+        },
+        {
+          "label": "Schemas",
+          "path": "src/employees/schemas/",
+          "url": "https://github.com/arvin-ramezani/nestjs-mongodb-repository/tree/main/src/employees/schemas"
+        }
+      ]
+    },
+    {
+      "name": "nest-socket.io",
+      "url": "https://github.com/arvin-ramezani/nest-socket.io",
+      "category": "Backend studies",
+      "kind": "study",
+      "description": "NestJS and Socket.IO chat-gateway study; README is framework boilerplate.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Chat gateway",
+          "path": "src/gateway/chatroom.gateway.ts",
+          "url": "https://github.com/arvin-ramezani/nest-socket.io/blob/main/src/gateway/chatroom.gateway.ts"
+        },
+        {
+          "label": "Client assets",
+          "path": "public/",
+          "url": "https://github.com/arvin-ramezani/nest-socket.io/tree/main/public"
+        }
+      ]
+    },
+    {
+      "name": "gRPC-node-tutorial",
+      "url": "https://github.com/arvin-ramezani/gRPC-node-tutorial",
+      "category": "Backend studies",
+      "kind": "study",
+      "description": "Node.js and TypeScript gRPC exercise with unary and streaming examples; no README.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Server",
+          "path": "server.ts",
+          "url": "https://github.com/arvin-ramezani/gRPC-node-tutorial/blob/main/server.ts"
+        },
+        {
+          "label": "Client",
+          "path": "client.ts",
+          "url": "https://github.com/arvin-ramezani/gRPC-node-tutorial/blob/main/client.ts"
+        },
+        {
+          "label": "Protocol",
+          "path": "proto/",
+          "url": "https://github.com/arvin-ramezani/gRPC-node-tutorial/tree/main/proto"
+        }
+      ]
+    },
+    {
+      "name": "express-typeorm-cli",
+      "url": "https://github.com/arvin-ramezani/express-typeorm-cli",
+      "category": "Backend studies",
+      "kind": "study",
+      "description": "Express and TypeORM CLI study with banker, client, and transaction entities.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Controllers",
+          "path": "src/controller/",
+          "url": "https://github.com/arvin-ramezani/express-typeorm-cli/tree/main/src/controller"
+        },
+        {
+          "label": "Entities",
+          "path": "src/entity/",
+          "url": "https://github.com/arvin-ramezani/express-typeorm-cli/tree/main/src/entity"
+        }
+      ]
+    },
+    {
+      "name": "express-typeOrm",
+      "url": "https://github.com/arvin-ramezani/express-typeOrm",
+      "category": "Backend studies",
+      "kind": "study",
+      "description": "Express and TypeORM tutorial with banker, client, and transaction routes.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Routes",
+          "path": "src/routes/",
+          "url": "https://github.com/arvin-ramezani/express-typeOrm/tree/main/src/routes"
+        },
+        {
+          "label": "Entities",
+          "path": "src/entities/",
+          "url": "https://github.com/arvin-ramezani/express-typeOrm/tree/main/src/entities"
+        },
+        {
+          "label": "Notes",
+          "path": "readme",
+          "url": "https://github.com/arvin-ramezani/express-typeOrm/blob/main/readme"
+        }
+      ]
+    },
+    {
+      "name": "simple-api",
+      "url": "https://github.com/arvin-ramezani/simple-api",
+      "category": "Backend studies",
+      "kind": "study",
+      "description": "Small NestJS email API with DTOs, configuration helpers, and setup instructions.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Email module",
+          "path": "src/emails/",
+          "url": "https://github.com/arvin-ramezani/simple-api/tree/main/src/emails"
+        },
+        {
+          "label": "Setup",
+          "path": "README.md",
+          "url": "https://github.com/arvin-ramezani/simple-api/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "name": "awesome-ai-tools",
+      "url": "https://github.com/arvin-ramezani/awesome-ai-tools",
+      "category": "Forks and references",
+      "kind": "fork",
+      "description": "Forked AI-tools reference list; distinguish upstream content from original implementation work.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Reference list",
+          "path": "README.md",
+          "url": "https://github.com/arvin-ramezani/awesome-ai-tools/blob/main/README.md"
+        }
+      ],
+      "upstream": "https://github.com/mahseema/awesome-ai-tools"
+    },
+    {
+      "name": "next-image-ai-transformation",
+      "url": "https://github.com/arvin-ramezani/next-image-ai-transformation",
+      "category": "Forks and references",
+      "kind": "fork",
+      "description": "Forked Next.js and Cloudinary AI image-transformation example.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Transformation page",
+          "path": "app/transform/page.tsx",
+          "url": "https://github.com/arvin-ramezani/next-image-ai-transformation/blob/main/app/transform/page.tsx"
+        },
+        {
+          "label": "Manifest",
+          "path": "package.json",
+          "url": "https://github.com/arvin-ramezani/next-image-ai-transformation/blob/main/package.json"
+        }
+      ],
+      "upstream": "https://github.com/HamedBahram/next-image"
+    },
+    {
+      "name": "arvin-ramezani",
+      "url": "https://github.com/arvin-ramezani/arvin-ramezani",
+      "category": "Profile and placeholder",
+      "kind": "profile",
+      "description": "This GitHub profile, public repository guide, and structured repository index.",
+      "default_branch": "main",
+      "entry_points": [
+        {
+          "label": "Profile",
+          "path": "README.md",
+          "url": "https://github.com/arvin-ramezani/arvin-ramezani/blob/main/README.md"
+        },
+        {
+          "label": "Repository guide",
+          "path": "REPOSITORIES.md",
+          "url": "https://github.com/arvin-ramezani/arvin-ramezani/blob/main/REPOSITORIES.md"
+        },
+        {
+          "label": "Structured index",
+          "path": "projects.json",
+          "url": "https://github.com/arvin-ramezani/arvin-ramezani/blob/main/projects.json"
+        }
+      ]
+    },
+    {
+      "name": "Random-user-vue.3",
+      "url": "https://github.com/arvin-ramezani/Random-user-vue.3",
+      "category": "Profile and placeholder",
+      "kind": "empty-placeholder",
+      "description": "Empty repository at review time; metadata describes a Vue random-user idea, but no implementation is available.",
+      "default_branch": "main",
+      "entry_points": []
+    }
+  ]
+}
