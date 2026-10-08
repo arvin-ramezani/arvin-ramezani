@@ -1,4 +1,7 @@
-<img src="./images/header/profile.svg" width="1000" alt="">
+<picture>
+  <source media="(max-width: 700px)" srcset="./images/header/profile-mobile.svg">
+  <img src="./images/header/profile.svg" width="1200" alt="Arvin's portrait beside a man pushing PROBLEM. You can never understand everything. But, you should push yourself to understand the system. — Ryan Dahl, creator of Node.js.">
+</picture>
 
 # Arvin Ramezani
 
