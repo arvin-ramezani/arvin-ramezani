@@ -1,6 +1,6 @@
 # Profile banner
 
-The banner preserves the pushing-`PROBLEM` motif and quote from Arvin's original image. The scene, real portrait, and text are separate sources. Both layouts adapt their colors to the page theme; the narrower layout keeps the quote readable on phones.
+The person and the pushed word `PROBLEM` lead the banner. The full quote and attribution sit beneath the word in quieter type. The real portrait remains a separate, replaceable source. Both layouts adapt their colors to the page theme; the mobile layout wraps the quote beneath `PROBLEM` and places the portrait below the figure.
 
 ## Change the portrait
 
@@ -32,12 +32,14 @@ The builder uses only Node.js built-in modules. Embedded image data makes each S
 
 ## Scene refinement prompt
 
-The built-in image editor was used for the scene only. Reference: the original `problem-solving-profile.jpg` banner. The portrait and quote are composed separately by the builder.
+The built-in image editor was used for the scene only. References: the prior isolated scene and Arvin's banner-layout feedback. The portrait and quote remain separate sources.
 
 ```text
-Use case: precise-object-edit.
-Asset type: an isolated photographic scene layer for an editable GitHub profile banner.
-Input image 1 is the edit target. Preserve the original visual idea: a full-body businessman facing right, leaning backward with one leg extended so his foot physically pushes the first letter of the large three-dimensional word PROBLEM. Keep the sense of effort and the word being displaced toward the right. The extended shoe must touch the word; retain believable anatomy, balance, and perspective.
-Improve the original low-resolution scene into sharp, restrained editorial photographic quality. Use a graphite suit with natural mid-gray highlights, realistic skin and cloth, and refined concrete-gray extruded typography. Render the word exactly PROBLEM, P-R-O-B-L-E-M, with all seven letters large, complete, and readable. Preserve the full man and the complete word in a wide composition with modest margins, roughly 3:2 canvas. Lighting is soft studio lighting with enough midtone edge definition to read against white and charcoal backgrounds. The 3D letter fronts are medium-to-light neutral gray, with realistic darker side faces and controlled texture rather than distressed/grunge type.
-Remove the circular portrait, the wall and floor background, all quote text, all attribution text, all existing rounded banner framing, and every other element. Output only the man and the pushed word, isolated on a truly transparent background with a small soft contact shadow if needed. The portrait and exact quote will be added separately as editable layers; do not incorporate them into this scene. No neon, no dots, no swooshes, no logos, no extra wording, no UI mockup, no cartoon, no watermark.
+Use case: identity-preserve / compositing refinement.
+Asset type: primary photographic artwork for an editable GitHub profile banner.
+Image 1 is the existing isolated scene to edit. Image 2 shows the current banner composition that needs better hierarchy.
+Keep the SAME businessman from image 1: same face, hair, suit, full-body stance, backward lean, extended leg, and physical shoe contact with the first letter P. Keep all seven letters and the original visual idea of the man pushing/displacing the 3D word PROBLEM. Do not replace the man or invent another pose.
+Recompose the isolated scene for a wider, approximately 2:1 landscape canvas. The complete man and the large word PROBLEM are the hero, filling the useful upper and middle portion. The word occupies the right half prominently; preserve its concrete-gray front faces, darker extrusion, slight tilt of the pushed P, realistic contact, natural studio light, and sharp high-resolution edges. Keep the entire head, planted foot, extended shoe and all seven letters inside the frame. The word must be exactly PROBLEM, P-R-O-B-L-E-M.
+Leave clear transparent negative space DIRECTLY BELOW the word PROBLEM, aligned with that word's left edge, large enough for a compact quotation and its attribution. That space belongs below the word, not beside it. The man may extend down along the left side of this text space. Maintain believable proportions; do not stretch limbs just to fill the canvas.
+Output only the refined man-and-PROBLEM artwork on a genuinely transparent background. Remove all quote and attribution text from image 2; those will be set precisely as quieter, editable SVG text below PROBLEM. No portrait, no surrounding card, no background wall or floor, no neon, no dots, no glows, no extra wording, no UI mockup, no watermarks.
 ```

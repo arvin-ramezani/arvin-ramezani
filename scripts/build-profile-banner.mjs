@@ -13,27 +13,30 @@ const quote = 'You can never understand everything. But, you should push yoursel
 
 function banner(mobile) {
   const width = mobile ? 600 : 1200;
-  const height = mobile ? 584 : 360;
-  const p = mobile ? { x: 40, y: 96, size: 128 } : { x: 40, y: 104, size: 144 };
-  const s = mobile ? { x: 200, y: 32, width: 368, height: 246 } : { x: 224, y: 48, width: 384, height: 256 };
-  const q = mobile ? { x: 32, y: [328, 372, 440, 484], font: 32, credit: 544, creditFont: 24 } : { x: 624, y: [96, 140, 208, 252], font: 32, credit: 312, creditFont: 22 };
+  const height = mobile ? 632 : 552;
+  const p = mobile ? { x: 56, y: 376, size: 144 } : { x: 40, y: 196, size: 144 };
+  const s = mobile ? { x: 24, y: 24, width: 552, height: 276 } : { x: 224, y: 24, width: 936, height: 468 };
+  const q = mobile
+    ? { x: 248, y: [252, 292, 332, 384, 424, 464, 504], font: 32, credit: [552, 584], creditFont: 24,
+        lines: ['You can never', 'understand', 'everything.', 'But, you should', 'push yourself to', 'understand', 'the system.'] }
+    : { x: 608, y: [384, 422, 460], font: 26, credit: [508], creditFont: 22,
+        lines: ['You can never understand everything.', 'But, you should push yourself', 'to understand the system.'] };
+  const creditLines = mobile ? ['— Ryan Dahl', 'Creator of Node.js'] : ['— Ryan Dahl · Creator of Node.js'];
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title description">
   <title id="title">Arvin Ramezani — problem solving</title>
   <desc id="description">Arvin's portrait beside a man pushing the word PROBLEM. ${quote} — Ryan Dahl, creator of Node.js.</desc>
   <style>
     .surface { fill: #f6f8fa; stroke: #d1d9e0; }
-    .text { fill: #1f2328; }
-    .accent { fill: #0969da; }
+    .quote { fill: #59636e; }
     .muted { fill: #59636e; }
     .portrait-ring { fill: none; stroke: #d1d9e0; }
     text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }
     @media (prefers-color-scheme: dark) {
       .surface { fill: #161b22; stroke: #30363d; }
-      .text { fill: #f0f6fc; }
-      .accent { fill: #58a6ff; }
+      .quote { fill: #b1bac4; }
       .muted { fill: #b1bac4; }
       .portrait-ring { stroke: #484f58; }
-      .scene { filter: brightness(1.5); }
+      .scene { filter: brightness(1.2); }
     }
   </style>
   <defs><clipPath id="portrait-clip"><circle cx="${p.x + p.size / 2}" cy="${p.y + p.size / 2}" r="${p.size / 2}"/></clipPath></defs>
@@ -41,13 +44,12 @@ function banner(mobile) {
   <image id="portrait" x="${p.x}" y="${p.y}" width="${p.size}" height="${p.size}" preserveAspectRatio="xMidYMid slice" clip-path="url(#portrait-clip)" href="${portrait}"/>
   <circle class="portrait-ring" cx="${p.x + p.size / 2}" cy="${p.y + p.size / 2}" r="${p.size / 2}" stroke-width="1.5"/>
   <image id="problem-scene" class="scene" x="${s.x}" y="${s.y}" width="${s.width}" height="${s.height}" preserveAspectRatio="xMidYMid meet" href="${scene}"/>
-  <g font-size="${q.font}" class="text">
-    <text x="${q.x}" y="${q.y[0]}">You can never</text>
-    <text x="${q.x}" y="${q.y[1]}">understand everything.</text>
-    <text x="${q.x}" y="${q.y[2]}" font-weight="600">But, you should push yourself</text>
-    <text x="${q.x}" y="${q.y[3]}" font-weight="600" class="accent">to understand the system.</text>
+  <g font-size="${q.font}" font-weight="400" class="quote">
+${q.lines.map((line, i) => `    <text x="${q.x}" y="${q.y[i]}">${line}</text>`).join('\n')}
   </g>
-  <text class="muted" x="${q.x}" y="${q.credit}" font-size="${q.creditFont}">— Ryan Dahl · Creator of Node.js</text>
+  <g class="muted" font-size="${q.creditFont}">
+${creditLines.map((line, i) => `    <text x="${q.x}" y="${q.credit[i]}">${line}</text>`).join('\n')}
+  </g>
 </svg>
 `;
 }
